@@ -15,14 +15,17 @@
       .box:nth-child(1) {
         background-color: red;
         animation: hello 3s;
+        animation-timing-function: ease;
       }
       .box:nth-child(2) {
         background-color: yellow;
-        animation: hello 4s;
+        animation: hello 3s;
+        animation-timing-function: ease-in;
       }
       .box:nth-child(3) {
         background-color: blue;
-        animation: hello 5s;
+        animation: hello 3s;
+        animation-timing-function: linear;
       }
       @keyframes hello {
         0% {
