@@ -14,12 +14,23 @@
       }
       .box:nth-child(1) {
         background-color: red;
+        animation: hello 3s;
       }
       .box:nth-child(2) {
         background-color: yellow;
+        animation: hello 4s;
       }
       .box:nth-child(3) {
         background-color: blue;
+        animation: hello 5s;
+      }
+      @keyframes hello {
+        0% {
+          width: 300px;
+        }
+        100% {
+          width: 30px;
+        }
       }
     </style>
   </head>
